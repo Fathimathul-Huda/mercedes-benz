@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    height: 84px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+header #header-right img {
+    height: 25px;
+    width: 25px;
+    filter: invert(100%);
+}
+
+#header-left{
+    margin-left: 107px;
+}
+
+#header-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    margin-right: 107px;
+}
+
+#header-right a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    gap: 5px;
+}
+#header-center {
+    display: flex;
+    justify-content: center;
+}
