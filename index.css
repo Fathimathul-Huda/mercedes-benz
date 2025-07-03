@@ -46,3 +46,55 @@ header a{
     display: flex;
     justify-content: center;
 }
+#recomendation {
+    margin: 0 107px;
+}
+
+#recomendation #center{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#recomendation #center div{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-between;
+}
+
+#recomendation #center img {
+    width: auto;
+    height: 420px;   
+    object-fit: cover;
+}
+
+
+#recomendation #center #r1{
+    grid-column: span 2;
+}
+#card-content{
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+#card-content button{
+    width: fit-content;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+}
+#mainh1{
+    font-size: larger;
+}
+#b1 button{
+    width: fit-content;
+    
+
+}
+
+
+
