@@ -86,49 +86,89 @@ header a{
     font-size: 20px;
     padding: 10px;
 
-}  
-#main{
-    margin:  0 107px;
-    font-size: 20px;
-    
-    
+}
+#mainh1{
+    font-size: larger;
 }
 #b1 button{
-    font-size: 20px;
-    width:fit-content;
+    width: fit-content;  
+
+}
+#main{
+    margin:  0 107px;
+    
     
 }
+#model{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
 
+#model-1 img{
+    width: 333px;
+    
+}
+ #main button{
+    font-size: 20px; 
+
+}
+#main #b1{
+    
+    width: fit-content;
+    gap: 30px;
+    
+}
 #service{
+    margin: 0 107px;
+}
+#service-ab{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 10px;
     overflow: scroll;
     
-}  
-
-
-#service-ab{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 10px;
-
-
-} 
+}
 #service-a img{
-    width: auto;
+    width: 400px;
     height: 400px;
-    
-    
 }
-#service-a{
-    font-size: 335px 24px;
-}
-#service h3 {
-    font-size: 40px
+#service h3{
+    font-size: 30px;
 }
 #service-a button{
-    width: fit-content;
+    font-size: small;
+}
+#defining{
+    margin: 0 107px;
     
 }
-#service-a p{
+#history {
+    margin: 0 107px;
+    width: 50%;
+}
+#history-1 img{
+    width: 500px;
+    height: 500px;
+    padding-left: 90%;
+    
+    
+}
+#disclaimer{
+    margin: 0 107px;
     font-size: smaller;
 }
+#disclaimer h1{
+    font-size: medium;
+}
+#button button{
+    margin: 0 107px;
+    
+    grid-template-coloum: 1fr 1fr 1fr;
+}
+#button-1{
+    display: grid;
+}
+
+
+
 
