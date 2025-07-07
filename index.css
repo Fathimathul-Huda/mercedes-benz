@@ -86,15 +86,49 @@ header a{
     font-size: 20px;
     padding: 10px;
 
-}
-#mainh1{
-    font-size: larger;
+}  
+#main{
+    margin:  0 107px;
+    font-size: 20px;
+    
+    
 }
 #b1 button{
-    width: fit-content;
+    font-size: 20px;
+    width:fit-content;
     
-
 }
 
+#service{
+    overflow: scroll;
+    
+}  
 
+
+#service-ab{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 10px;
+
+
+} 
+#service-a img{
+    width: auto;
+    height: 400px;
+    
+    
+}
+#service-a{
+    font-size: 335px 24px;
+}
+#service h3 {
+    font-size: 40px
+}
+#service-a button{
+    width: fit-content;
+    
+}
+#service-a p{
+    font-size: smaller;
+}
 
