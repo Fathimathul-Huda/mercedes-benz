@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    height: 84px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+header #header-right img {
+    height: 25px;
+    width: 25px;
+    filter: invert(100%);
+}
+
+#header-left{
+    margin-left: 107px;
+}
+
+#header-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    margin-right: 107px;
+}
+
+#header-right a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    gap: 5px;
+}
+#header-center {
+    display: flex;
+    justify-content: center;
+}
+#recomendation {
+    margin: 0 107px;
+}
+
+#recomendation #center{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#recomendation #center div{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-between;
+}
+
+#recomendation #center img {
+    width: auto;
+    height: 420px;   
+    object-fit: cover;
+}
+
+
+#recomendation #center #r1{
+    grid-column: span 2;
+}
+#card-content{
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+#card-content button{
+    width: fit-content;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+}
+#mainh1{
+    font-size: larger;
+}
+#b1 button{
+    width: fit-content;  
+
+}
+#main{
+    margin:  0 107px;
+    
+    
+}
+#model{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+#model-1 img{
+    width: 333px;
+    
+}
+ #main button{
+    font-size: 20px; 
+
+}
+#main #b1{
+    
+    width: fit-content;
+    gap: 30px;
+    
+}
+#service{
+    margin: 0 107px;
+}
+#service-ab{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 10px;
+    overflow: scroll;
+    
+}
+#service-a img{
+    width: 400px;
+    height: 400px;
+}
+#service h3{
+    font-size: 30px;
+}
+#service-a button{
+    font-size: small;
+}
+#defining{
+    margin: 0 107px;
+    
+}
+#history {
+    margin: 0 107px;
+    width: 50%;
+}
+#history-1 img{
+    width: 500px;
+    height: 500px;
+    padding-left: 90%;
+    
+    
+}
+#disclaimer{
+    margin: 0 107px;
+    font-size: smaller;
+}
+#disclaimer h1{
+    font-size: medium;
+}
+#button button{
+    margin: 0 107px;
+    
+    grid-template-coloum: 1fr 1fr 1fr;
+}
+#button-1{
+    display: grid;
+}
+
+
+
+
